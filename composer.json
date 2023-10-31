@@ -1,0 +1,22 @@
+{
+	"name": "hassan/13bienes-raices-php_inicio",
+	"description": "Creando un proyecto con POO",
+	"type": "project",
+	"autoload": {
+		"psr-4": {
+			"Model\\": "./models",
+			"MVC\\": "./",
+			"Controllers\\": "./controllers"
+		}
+	},
+	"authors": [
+		{
+			"name": "Franco Matias Rossi",
+			"email": "95671766+frannqito@users.noreply.github.com"
+		}
+	],
+	"require": {
+		"intervention/image": "^2.7",
+		"phpmailer/phpmailer": "^6.8"
+	}
+}
